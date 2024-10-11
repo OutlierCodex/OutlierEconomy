@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "outlier-economy",
+	"version": "${version}",
+	"name": "Outlier Economy",
+	"description": "A fully functioning economy for Minecraft!",
+	"authors": [
+		"Nick"
+	],
+	"contact": {
+		"homepage": "https://outliertech.org/",
+		"sources": "https://github.com/Dysanick/OutLier-Economy-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/outlier-economy/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.outliertech.outliereconomy.OutlierEconomy"
+		],
+		"fabric-datagen": [
+			"org.outliertech.outliereconomy.OutlierEconomyDataGenerator"
+		],
+		"client": [
+			"org.outliertech.outliereconomy.OutlierEconomyClient"
+		]
+	},
+	"mixins": [
+		"outlier-economy.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
