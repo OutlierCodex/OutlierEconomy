@@ -2,6 +2,8 @@ package org.outliertech.outliereconomy;
 
 import net.fabricmc.api.ModInitializer;
 
+import org.outliertech.outliereconomy.block.ModBlocks;
+import org.outliertech.outliereconomy.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +14,7 @@ public class OutlierEconomy implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registeredModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

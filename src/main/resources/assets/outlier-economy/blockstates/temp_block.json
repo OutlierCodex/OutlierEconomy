@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "outlier-economy:block/temp_block"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "item.outlier-economy.bank_note": "Bank Note",
+  "item.outlier-economy.credit_card": "Credit Card",
+  "item.outlier-economy.debit_card": "Debit Card",
+
+  "block.outlier-economy.temp_block": "Temporary Block"
+}
