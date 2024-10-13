@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 import org.outliertech.outliereconomy.OutlierEconomy;
 
 public class ModBlocks {
-    public static final Block TEMP_BLOCK = registerBlock("temp_block",
+    public static final Block DYSANIUM_BLOCK = registerBlock("dysanium_block",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
@@ -31,7 +31,7 @@ public class ModBlocks {
         OutlierEconomy.LOGGER.info("Registering Mod Blocks for " + OutlierEconomy.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.TEMP_BLOCK);
+            entries.add(ModBlocks.DYSANIUM_BLOCK);
         });
     }
 }

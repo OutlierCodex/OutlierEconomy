@@ -2,6 +2,7 @@
   "item.outlier-economy.bank_note": "Bank Note",
   "item.outlier-economy.credit_card": "Credit Card",
   "item.outlier-economy.debit_card": "Debit Card",
+  "item.outlier-economy.dysanium_ingot": "Dysanium Ingot",
 
-  "block.outlier-economy.temp_block": "Temporary Block"
+  "block.outlier-economy.dysanium_block": "Dysanium Block"
 }

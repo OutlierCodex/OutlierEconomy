@@ -12,6 +12,7 @@ public class ModItems {
     public static final Item BANK_NOTE = registerItem("bank_note", new Item(new Item.Settings()));
     public static final Item CREDIT_CARD = registerItem("credit_card", new Item(new Item.Settings()));
     public static final Item DEBIT_CARD = registerItem("debit_card", new Item(new Item.Settings()));
+    public static final Item DYSANIUM_INGOT = registerItem("dysanium_ingot", new Item(new Item.Settings()));
 
 
 
@@ -26,6 +27,7 @@ public class ModItems {
            entries.add(BANK_NOTE);
            entries.add(DEBIT_CARD);
            entries.add(CREDIT_CARD);
+           entries.add(DYSANIUM_INGOT);
         });
     }
 }
