@@ -3,8 +3,11 @@
   "item.outliereconomy.credit_card": "Credit Card",
   "item.outliereconomy.debit_card": "Debit Card",
   "item.outliereconomy.dysanium_ingot": "Dysanium Ingot",
+  "item.outliereconomy.raw_dysanium": "Raw Dysanium",
 
   "block.outliereconomy.dysanium_block": "Dysanium Block",
+  "block.outliereconomy.dysanium_ore": "Dysanium Ore",
+  "block.outliereconomy.deepslate_dysanium_ore": "Deepslate Dysanium Ore",
 
-  "itemgroup.outlier_economy.outlier_economy": "Outlier Economy"
+  "itemgroup.outliereconomy.outliereconomy": "Outlier Economy"
 }

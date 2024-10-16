@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "dysanium_ingot",
+  "ingredient": {
+    "item": "outliereconomy:raw_dysanium"
+  },
+  "result": {
+    "id": "outliereconomy:dysanium_ingot"
+  }
+}

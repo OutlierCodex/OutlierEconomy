@@ -19,19 +19,14 @@ public class ModItems {
     public static final Item DEBIT_CARD = registerItem("debit_card", new Item(new Item.Settings()));
     public static final Item DYSANIUM_INGOT = registerItem("dysanium_ingot", new Item(new Item.Settings()));
     public static final Item DYSANIUM_BLOCK = registerItem("dysanium_block", new Item(new Item.Settings()));
+    public static final Item RAW_DYSANIUM = registerItem("raw_dysanium", new Item(new Item.Settings()));
+    public static final Item DYSANIUM_ORE = registerItem("dysanium_ore", new Item(new Item.Settings()));
+    public static final Item DEEPSLATE_DYSANIUM_ORE = registerItem("deepslate_dysanium_ore", new Item(new Item.Settings()));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(OutlierEconomy.MOD_ID, name), item);
     }
 
     public static void registeredModItems(){
         OutlierEconomy.LOGGER.info("Registering Mod Items for " + OutlierEconomy.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-           entries.add(BANK_NOTE);
-           entries.add(DEBIT_CARD);
-           entries.add(CREDIT_CARD);
-           entries.add(DYSANIUM_INGOT);
-           entries.add(DYSANIUM_BLOCK);
-        });
     }
 }

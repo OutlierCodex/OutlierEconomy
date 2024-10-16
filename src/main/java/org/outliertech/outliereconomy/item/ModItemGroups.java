@@ -15,6 +15,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CREDIT_CARD))
                     .displayName(Text.translatable("itemgroup.outliereconomy.outliereconomy"))
                     .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.DYSANIUM_ORE);
+                        entries.add(ModItems.DEEPSLATE_DYSANIUM_ORE);
+                        entries.add(ModItems.RAW_DYSANIUM);
                         entries.add(ModItems.DYSANIUM_INGOT);
                         entries.add(ModItems.DYSANIUM_BLOCK);
                         entries.add(ModItems.BANK_NOTE);
