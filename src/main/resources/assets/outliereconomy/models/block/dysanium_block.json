@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "outlier-economy:block/dysanium_block"
+    "all": "outliereconomy:block/dysanium_block"
   }
 }

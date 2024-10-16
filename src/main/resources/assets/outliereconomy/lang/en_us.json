@@ -1,0 +1,10 @@
+{
+  "item.outliereconomy.bank_note": "Bank Note",
+  "item.outliereconomy.credit_card": "Credit Card",
+  "item.outliereconomy.debit_card": "Debit Card",
+  "item.outliereconomy.dysanium_ingot": "Dysanium Ingot",
+
+  "block.outliereconomy.dysanium_block": "Dysanium Block",
+
+  "itemgroup.outlier_economy.outlier_economy": "Outlier Economy"
+}

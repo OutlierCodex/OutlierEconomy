@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "outlier-economy",
+	"id": "outliereconomy",
 	"version": "${version}",
 	"name": "Outlier Economy",
 	"description": "A fully functioning economy for Minecraft!",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/Dysanick/OutLier-Economy-1.21.X"
 	},
 	"license": "MIT",
-	"icon": "assets/outlier-economy/icon.png",
+	"icon": "assets/outliereconomy/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

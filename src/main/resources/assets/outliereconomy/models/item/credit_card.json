@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "outlier-economy:item/debit_card"
+    "layer0": "outliereconomy:item/credit_card"
   }
 }
