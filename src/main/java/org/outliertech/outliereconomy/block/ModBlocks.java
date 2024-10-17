@@ -22,6 +22,9 @@ public class ModBlocks {
     public static final Block DEEPSLATE_DYSANIUM_ORE = registerBlock("deepslate_dysanium_ore",
             new Block(AbstractBlock.Settings.create().strength(4f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block ATM = registerBlock("atm",
+            new Block(AbstractBlock.Settings.create().strength(4f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -40,6 +43,7 @@ public class ModBlocks {
             entries.add(ModBlocks.DYSANIUM_BLOCK);
             entries.add(ModBlocks.DYSANIUM_ORE);
             entries.add(ModBlocks.DEEPSLATE_DYSANIUM_ORE);
+            entries.add(ModBlocks.ATM);
         });
     }
 }

@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BANK_NOTE);
                         entries.add(ModItems.CREDIT_CARD);
                         entries.add(ModItems.DEBIT_CARD);
+                        entries.add(ModItems.ATM);
                     })).build());
 
 
