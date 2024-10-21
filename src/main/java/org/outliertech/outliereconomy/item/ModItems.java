@@ -1,5 +1,6 @@
 package org.outliertech.outliereconomy.item;
 
+import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -22,7 +23,6 @@ public class ModItems {
     public static final Item RAW_DYSANIUM = registerItem("raw_dysanium", new Item(new Item.Settings()));
     public static final Item DYSANIUM_ORE = registerItem("dysanium_ore", new Item(new Item.Settings()));
     public static final Item DEEPSLATE_DYSANIUM_ORE = registerItem("deepslate_dysanium_ore", new Item(new Item.Settings()));
-    public static final Item ATM = registerItem("atm", new Item(new Item.Settings()));
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(OutlierEconomy.MOD_ID, name), item);
     }
