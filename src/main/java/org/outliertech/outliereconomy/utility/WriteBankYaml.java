@@ -8,15 +8,17 @@ import org.yaml.snakeyaml.Yaml;
 
 public class WriteBankYaml {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         try {
             // Create a map to represent the YAML data
             // Left is YAML right is Value
             Map<String, Object> data = new LinkedHashMap<>();
-            data.put("name", "John Doe");
-            data.put("age", 30);
-            data.put("city", "New York");
-
+            data.put("bank_id", "bank_id");
+            data.put("bank_name", "bank_name");
+            data.put("bank_manager", "bank_manager");
+            data.put("bank_balance", "bank_balance");
+            data.put("bank_payable", "bank_payable");
             // Create a YAML object with options
             DumperOptions options = new DumperOptions();
             options.setDefaultFlowStyle(DumperOptions.FlowStyle.BLOCK);

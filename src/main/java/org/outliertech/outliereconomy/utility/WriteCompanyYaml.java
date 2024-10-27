@@ -10,12 +10,28 @@ public class WriteCompanyYaml {
 
     public static void main(String[] args) {
         try {
+
+            /*
+                company:
+                    company_id: company_id
+                    company_name: company_name
+                    date_founded: date_founded
+                    owner: owner
+                    ceo: ceo
+                    managers: [manager]
+                    members: [member]
+                    company_balance: company_balance
+                    company_payable: company_payable # members * salary
+                    organization_history: >
+                    Random text here just as placer text for the time being. The arrow makes each line connect when compiled.
+                    is_top_company: is_top_company
+            */
+
             // Create a map to represent the YAML data
             // Left is YAML right is Value
             Map<String, Object> data = new LinkedHashMap<>();
-            data.put("name", "John Doe");
-            data.put("age", 30);
-            data.put("city", "New York");
+            data.put("company_id", "company_id");
+            data.put("company_id", "company_id");
 
             // Create a YAML object with options
             DumperOptions options = new DumperOptions();

@@ -1,0 +1,6 @@
+bank:
+  bank_id: bank_id
+  bank_name: bank_name
+  bank_manager: bank_manager
+  bank_balance: bank_balance
+  bank_payable: bank_payable
