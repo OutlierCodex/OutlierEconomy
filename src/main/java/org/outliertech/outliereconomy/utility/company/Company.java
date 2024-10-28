@@ -1,4 +1,4 @@
-package org.outliertech.outliereconomy.utility;
+package org.outliertech.outliereconomy.utility.company;
 import java.lang.reflect.Array;
 import java.util.Date;
 

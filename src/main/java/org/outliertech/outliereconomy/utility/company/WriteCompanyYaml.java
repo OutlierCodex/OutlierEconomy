@@ -1,4 +1,4 @@
-package org.outliertech.outliereconomy.utility;
+package org.outliertech.outliereconomy.utility.company;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedHashMap;

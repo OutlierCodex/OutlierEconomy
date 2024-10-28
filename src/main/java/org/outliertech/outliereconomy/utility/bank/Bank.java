@@ -1,4 +1,4 @@
-package org.outliertech.outliereconomy.utility;
+package org.outliertech.outliereconomy.utility.bank;
 
 public class Bank {
 

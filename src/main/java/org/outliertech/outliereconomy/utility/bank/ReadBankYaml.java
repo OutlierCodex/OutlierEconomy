@@ -1,4 +1,4 @@
-package org.outliertech.outliereconomy.utility;
+package org.outliertech.outliereconomy.utility.bank;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
