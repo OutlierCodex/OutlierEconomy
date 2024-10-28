@@ -11,12 +11,23 @@ public class WriteBankYaml {
     public static void main(String[] args)
     {
         try {
+
+            /*
+                bank:
+                    bank_id: bank_id
+                    bank_name: bank_name
+                    bank_manager: bank_manager
+                    bank_balance: bank_balance
+                    bank_payable: bank_payable
+            */
+
             // Create a map to represent the YAML data
             // Left is YAML right is Value
             Map<String, Object> data = new LinkedHashMap<>();
             data.put("bank_id", "bank_id");
             data.put("bank_name", "bank_name");
             data.put("bank_manager", "bank_manager");
+            data.put("bank_employees", "bank_employees");
             data.put("bank_balance", "bank_balance");
             data.put("bank_payable", "bank_payable");
             // Create a YAML object with options

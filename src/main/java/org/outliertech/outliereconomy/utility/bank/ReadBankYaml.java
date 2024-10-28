@@ -2,6 +2,7 @@ package org.outliertech.outliereconomy.utility.bank;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
+import java.lang.reflect.Array;
 import java.util.Map;
 import org.yaml.snakeyaml.Yaml;
 
@@ -15,6 +16,7 @@ public class ReadBankYaml {
                     bank_id: bank_id
                     bank_name: bank_name
                     bank_manager: bank_manager
+                    bank_employees: bank_employees
                     bank_balance: bank_balance
                     bank_payable: bank_payable
             */
@@ -32,6 +34,9 @@ public class ReadBankYaml {
 
             String bank_manager = (String) data.get("bank_manager");
             System.out.println("Bank Manager: " + bank_manager);
+
+            Array[] bank_employees = (Array[]) data.get("bank_employees");
+            System.out.println("Bank Employees: " + bank_employees);
 
             double bank_balance = (double) data.get("bank_balance");
             System.out.println("Bank Balance: " + bank_balance);
