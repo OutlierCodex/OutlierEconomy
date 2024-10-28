@@ -30,8 +30,16 @@ public class WriteCompanyYaml {
             // Create a map to represent the YAML data
             // Left is YAML right is Value
             Map<String, Object> data = new LinkedHashMap<>();
-            data.put("company_id", "company_id");
-            data.put("company_id", "company_id");
+            data.put("company_name", "company_name");
+            data.put("date_founded", "date_founded");
+            data.put("owner", "owner");
+            data.put("ceo", "ceo");
+            data.put("managers", "managers");
+            data.put("members", "members");
+            data.put("company_balance", "company_balance");
+            data.put("company_payable", "company_payable");
+            data.put("organization_history", "organization_history");
+            data.put("is_top_company", "is_top_company");
 
             // Create a YAML object with options
             DumperOptions options = new DumperOptions();

@@ -10,12 +10,33 @@ public class WritePlayerYaml {
 
     public static void main(String[] args) {
         try {
+
+            /*
+
+                player:
+                    player_id: player_id
+                    employee_id: employee_id
+                    balance: balance
+                    debt: debt
+                    credit_remaining: credit_remaining
+                    background: >
+                    Random text here just as placer text for the time being.  The arrow makes each line connect when compiled.
+                    is_current_champion: false
+                    homes: [home]
+
+            */
+
             // Create a map to represent the YAML data
             // Left is YAML right is Value
             Map<String, Object> data = new LinkedHashMap<>();
-            data.put("name", "John Doe");
-            data.put("age", 30);
-            data.put("city", "New York");
+            data.put("player_id", "player_id");
+            data.put("employee_id", "employee_id");
+            data.put("balance", "balance");
+            data.put("debt", "debt");
+            data.put("credit_remaining", "credit_remaining");
+            data.put("background", "background");
+            data.put("is_current_champion", "is_current_champion");
+            data.put("homes", "homes");
 
             // Create a YAML object with options
             DumperOptions options = new DumperOptions();
