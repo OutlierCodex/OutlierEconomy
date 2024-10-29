@@ -17,6 +17,7 @@ public class WriteBankYaml {
                     bank_id: bank_id
                     bank_name: bank_name
                     bank_manager: bank_manager
+                    bank_employees: bank_employees
                     bank_balance: bank_balance
                     bank_payable: bank_payable
             */
