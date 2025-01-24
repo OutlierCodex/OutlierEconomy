@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "facing=north": { "model": "outliereconomy:block/atm", "uvlock": true },
+    "facing=east":  { "model": "outliereconomy:block/atm", "y":  90, "uvlock": true },
+    "facing=south": { "model": "outliereconomy:block/atm", "y": 180, "uvlock": true },
+    "facing=west":  { "model": "outliereconomy:block/atm", "y": 270, "uvlock": true }
+  }
+}
+
