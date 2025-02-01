@@ -1,2 +1,3 @@
 uuid: 0 #string
-player_balance: 0 #float
+player_balance: 0.00 #double
+player_bank_balance: 0.00 # double
